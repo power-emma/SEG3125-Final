@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/SEG3125-Final/static/css/main.df5c8fd3.css",
+    "main.js": "/SEG3125-Final/static/js/main.6a8f0b6e.js",
+    "static/media/SEG3125-A2-Proto-85fb4a39.zip": "/SEG3125-Final/static/media/SEG3125-A2-Proto-cdb43cc899c2ebb384bea39759e84ea885fb4a39.3c956c3c8bee1c54fdb1.zip",
+    "static/media/pcbuilder.png": "/SEG3125-Final/static/media/pcbuilder.6a754dc520495d7f57a6.png",
+    "static/media/gta5.png": "/SEG3125-Final/static/media/gta5.fc212f81578d5aadf49f.png",
+    "static/media/ryzenhero.webp": "/SEG3125-Final/static/media/ryzenhero.77429665e44143aec5d7.webp",
+    "static/media/MBD-INTEL-ASUS.jpg": "/SEG3125-Final/static/media/MBD-INTEL-ASUS.9c875a7cba2333cd496f.jpg",
+    "static/media/MBD-AMD-ASUS.jpg": "/SEG3125-Final/static/media/MBD-AMD-ASUS.9eca386025fc3cf756f2.jpg",
+    "static/media/lol.png": "/SEG3125-Final/static/media/lol.7c465aac062320a32c45.png",
+    "static/media/RAM-64.jpg": "/SEG3125-Final/static/media/RAM-64.2ecc32e5bf80535c64c0.jpg",
+    "static/media/MBD-AMD-GIGABYTE2.jpg": "/SEG3125-Final/static/media/MBD-AMD-GIGABYTE2.784c622d42b0bb875219.jpg",
+    "static/media/MBD-AMD-GIGABYTE.jpg": "/SEG3125-Final/static/media/MBD-AMD-GIGABYTE.2052b77830f54ce1ad32.jpg",
+    "static/media/CPU9900.jpg": "/SEG3125-Final/static/media/CPU9900.c8dfd0f5099bdbe3ba7c.jpg",
+    "static/media/MBD-INTEL-MSI.jpg": "/SEG3125-Final/static/media/MBD-INTEL-MSI.a4d3f46954d9afaf0952.jpg",
+    "static/media/eldenring.webp": "/SEG3125-Final/static/media/eldenring.9108c0bbd28ad70c1070.webp",
+    "static/media/MBD-INTEL-GIGABYTE.jpg": "/SEG3125-Final/static/media/MBD-INTEL-GIGABYTE.ff856d9455a24e0a094d.jpg",
+    "static/media/cod.jpg": "/SEG3125-Final/static/media/cod.8bb76f1d9a446e34a1af.jpg",
+    "static/media/placeholder.jpg": "/SEG3125-Final/static/media/placeholder.6b1073ad6333e8dc1c09.jpg",
+    "static/media/CPU9800.jpg": "/SEG3125-Final/static/media/CPU9800.2ce0e485cf8abf6bc068.jpg",
+    "static/media/CPU9950.jpg": "/SEG3125-Final/static/media/CPU9950.33376d25a1b1318b93a4.jpg",
+    "static/media/CPU9500.jpg": "/SEG3125-Final/static/media/CPU9500.65b4afb62af9d2325366.jpg",
+    "static/media/CPU9600.jpg": "/SEG3125-Final/static/media/CPU9600.65b4afb62af9d2325366.jpg",
+    "static/media/CPU9700.jpg": "/SEG3125-Final/static/media/CPU9700.b33adbc4a8c97a101c1b.jpg",
+    "static/media/CPUi5.jpg": "/SEG3125-Final/static/media/CPUi5.38436cf621a3d198b735.jpg",
+    "static/media/RAM-16.jpg": "/SEG3125-Final/static/media/RAM-16.50f29877ca779cf4478e.jpg",
+    "static/media/CPUi7.jpg": "/SEG3125-Final/static/media/CPUi7.048271b8679d0bb42940.jpg",
+    "static/media/RAM-32.jpg": "/SEG3125-Final/static/media/RAM-32.3c70b409e8f85d3e1fe7.jpg",
+    "static/media/CPUi9.jpg": "/SEG3125-Final/static/media/CPUi9.f6d0b744bbe886626880.jpg",
+    "index.html": "/SEG3125-Final/index.html",
+    "main.df5c8fd3.css.map": "/SEG3125-Final/static/css/main.df5c8fd3.css.map",
+    "main.6a8f0b6e.js.map": "/SEG3125-Final/static/js/main.6a8f0b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df5c8fd3.css",
+    "static/js/main.6a8f0b6e.js"
+  ]
+}
