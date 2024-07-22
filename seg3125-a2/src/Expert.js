@@ -1,10 +1,38 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext, useEffect } from "react";
+import CartContext from "./CartContext";
 import './Home.css'
-import { Outlet, Link } from "react-router-dom";
+import productData from './products.json';
+import { Alert, Button } from "react-bootstrap"; 
+import { Outlet, Link, Navigate } from "react-router-dom";
 import './Expert.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from 'react-router-dom';
 
-class Expert extends Component{
-    render() {
+const Expert = () => {
+    const navigate = useNavigate()
+    const [showB, setShowB] = useState(false);
+    const { dispatch } = useContext(CartContext);
+    const handleAddToCart = (id) => {
+        let product = null;
+        for (let i in productData) {
+            console.log(productData[i])
+            if (productData[i].id == id) {
+                product = productData[i];
+            }
+        }
+
+        console.log(id)
+        console.log(product)
+
+        dispatch({type: "ADD_ITEM", payload: product });
+        
+        navigate("/Cart");
+        
+        
+    };
+
+
+
         return (
                 
             <div className="Home">
@@ -47,35 +75,36 @@ class Expert extends Component{
                         <div className = "p-5 col-sm-1 "> </div>
                         <div className = "p-5 col-sm-6 "style={{backgroundColor: "#CCCCCC"}}>
                             
-                            <h1><b>New!</b> Pick one of these popular games and get a capable computer at a good price</h1>
+                            <h1><b>New!</b> Pick one of these popular games and get a capable computer at a good price added to your cart</h1>
                             <div className = "p-5 row" >
                                 <div className = " col-sm-4 "style={{backgroundColor: "#CCCCCC"}}> 
-                                    <img src={require("./img/gamelogo/cs.png")} alt="Logo" style={{width:"100%"}} />
+                                    <img src={require("./img/gamelogo/cs.png")} alt="Logo" style={{width:"100%"}} onClick={() => handleAddToCart("9-1")}/>
                                 </div>
                                 <div className = " col-sm-4 "style={{backgroundColor: "#CCCCCC"}}> 
-                                    <img src={require("./img/gamelogo/val.png")} alt="Logo" style={{width:"100%"}} />
+                                    <img src={require("./img/gamelogo/val.png")} alt="Logo" style={{width:"100%"}} onClick={() => handleAddToCart("9-2")}/>
                                 </div>
                                 <div className = " col-sm-4 "style={{backgroundColor: "#CCCCCC"}}> 
-                                    <img src={require("./img/gamelogo/eldenring.webp")} alt="Logo" style={{width:"100%"}} />
+                                    <img src={require("./img/gamelogo/eldenring.webp")} alt="Logo" style={{width:"100%"}} onClick={() => handleAddToCart("9-3")}/>
                                 </div>
                                 <div className = " col-sm-4 "style={{backgroundColor: "#CCCCCC"}}> 
-                                    <img src={require("./img/gamelogo/gta5.png")} alt="Logo" style={{width:"100%"}} />
+                                    <img src={require("./img/gamelogo/gta5.png")} alt="Logo" style={{width:"100%"}} onClick={() => handleAddToCart("9-2")}/>
                                 </div>
                                 <div className = " col-sm-4 "style={{backgroundColor: "#CCCCCC"}}> 
-                                    <img src={require("./img/gamelogo/lol.png")} alt="Logo" style={{width:"100%"}} />
+                                    <img src={require("./img/gamelogo/lol.png")} alt="Logo" style={{width:"100%"}} onClick={() => handleAddToCart("9-1")}/>
                                 </div>
                                 <div className = " col-sm-4 "style={{backgroundColor: "#CCCCCC"}}> 
-                                    <img src={require("./img/gamelogo/cod.jpg")} alt="Logo" style={{width:"100%"}} />
+                                    <img src={require("./img/gamelogo/cod.jpg")} alt="Logo" style={{width:"100%"}} onClick={() => handleAddToCart("9-3")}/>
                                 </div>
                             </div>
                         </div>
-
+                        
                     </div>
+                    
                 </body>
 
             </div>
         );
-    }
+    
 }
 
 export default Expert;

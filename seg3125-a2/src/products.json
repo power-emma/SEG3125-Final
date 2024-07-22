@@ -310,11 +310,30 @@
       "img" : "COOL-H2O-CS3.jpg",
       "categories" : ["COOL", "H2O"],
       "id" : "8-6"
+    },
+    {
+      "name" : "Light Weight Complete System",
+      "price" : 699.99,
+      "img" : "CASE-DCW.jpg",
+      "categories" : ["SYS"],
+      "id" : "9-1"
+    },
+
+    {
+      "name" : "Medium Weight Complete System",
+      "price" : 1299.99,
+      "img" : "CASE-DCW.jpg",
+      "categories" : ["SYS"],
+      "id" : "9-2"
+    },
+
+    {
+      "name" : "Heavy Weight Weight Complete System",
+      "price" : 1899.99,
+      "img" : "CASE-DCW.jpg",
+      "categories" : ["SYS"],
+      "id" : "9-3"
     }
-    
-    
-    
-    
 
 
   ]
