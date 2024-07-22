@@ -1,0 +1,17 @@
+{   
+    "header": {
+        "home": "Home",
+        "products": "Products",
+        "expert": "Expert",
+        "learn": "Learn",
+        "cart": "Cart"
+    },
+    "home": {
+        "amdhero": "New! AMD Ryzen 9000 Series CPUs",
+        "amddesc": "The fastest desktop processors on the market",
+        "amdbutton": "Browse AMD Products",
+        "experthero": "Have our experts do the work for you",
+        "expertdesc": "We can design and build a computer specifically for your needs",
+        "expertbutton": "Consult our Experts"
+    }
+}

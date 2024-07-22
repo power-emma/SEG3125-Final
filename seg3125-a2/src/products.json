@@ -131,6 +131,190 @@
       "img" : "RAM-64.jpg",
       "categories" : ["RAM"],
       "id" : "3-3"
+    },
+
+    {
+      "name" : "ASUS Dual GeForce RTX 4060",
+      "price" : 409.99,
+      "img" : "GPU-NV-4060.jpg",
+      "categories" : ["GPU", "NVIDIA"],
+      "id" : "4-1"
+    },
+
+    {
+      "name" : "ASUS Dual GeForce RTX 4070",
+      "price" : 699.99,
+      "img" : "GPU-NV-4070.jpg",
+      "categories" : ["GPU", "NVIDIA"],
+      "id" : "4-2"
+    },
+
+    {
+      "name" : "ASUS Dual GeForce RTX 4080",
+      "price" : 1299.99,
+      "img" : "GPU-NV-4080.jpg",
+      "categories" : ["GPU", "NVIDIA"],
+      "id" : "4-3"
+    },
+
+    {
+      "name" : "GIGABYTE Radeon RX 7900",
+      "price" : 749.99,
+      "img" : "GPU-AMD-7900.jpg",
+      "categories" : ["GPU", "AMD"],
+      "id" : "4-4"
+    },
+    {
+      "name" : "GIGABYTE PULSE AMD RADEON RX 7600 XT",
+      "price" : 549.99,
+      "img" : "GPU-AMD-7900.jpg",
+      "categories" : ["GPU", "AMD"],
+      "id" : "4-5"
+    },
+    {
+      "name" : "GIGABYTE Radeon RX 7800 XT",
+      "price" : 649.99,
+      "img" : "GPU-AMD-7900.jpg",
+      "categories" : ["GPU", "AMD"],
+      "id" : "4-6"
+    },
+    {
+      "name" : "GIGABYTE GP-UD850GM 850 W",
+      "price" : 114.99,
+      "img" : "PSU-850.jpg",
+      "categories" : ["PSU"],
+      "id" : "5-1"
+    },
+    {
+      "name" : "GIGABYTE GP-P950G 950 W",
+      "price" : 149.99,
+      "img" : "PSU-950.jpg",
+      "categories" : ["PSU"],
+      "id" : "5-2"
+    },
+    {
+      "name" : "GIGABYTE GP-UD750GM 750 W",
+      "price" : 99.99,
+      "img" : "PSU-750.jpg",
+      "categories" : ["PSU"],
+      "id" : "5-3"
+    },
+    {
+      "name" : "Kingston 2TB NVMe SSD",
+      "price" : 159.99,
+      "img" : "SSD-2TB.jpg",
+      "categories" : ["STORE", "SSD"],
+      "id" : "6-1"
+    },
+    {
+      "name" : "WD Black SN770 1TB NVMe SSD",
+      "price" : 99.99,
+      "img" : "SSD-1TB.jpg",
+      "categories" : ["STORE", "SSD"],
+      "id" : "6-2"
+    },
+    {
+      "name" : "KINGSTON NV2 500GB NVMe SSD",
+      "price" : 59.99,
+      "img" : "SSD-500GB.jpg",
+      "categories" : ["STORE", "SSD"],
+      "id" : "6-3"
+    },
+    {
+      "name" : "WD Red Pro 12 TB Hard Drive",
+      "price" : 399.99,
+      "img" : "HDD-12TB.jpg",
+      "categories" : ["STORE", "HDD"],
+      "id" : "6-4"
+    },
+    {
+      "name" : "WD Black 6 TB Hard Drive ",
+      "price" : 209.99,
+      "img" : "HDD-6TB.jpg",
+      "categories" : ["STORE", "HDD"],
+      "id" : "6-5"
+    },
+    {
+      "name" : "Seagate BarraCuda 8 TB Hard Drive",
+      "price" : 249.99,
+      "img" : "HDD-8TB.jpg",
+      "categories" : ["STORE", "HDD"],
+      "id" : "6-6"
+    },
+
+    {
+      "name" : "DeepCool CC560 V2 Mid-Tower ATX Case, White",
+      "price" : 64.99,
+      "img" : "CASE-DCW.jpg",
+      "categories" : ["CASE"],
+      "id" : "7-1"
+    },
+
+    {
+      "name" : "FRACTAL DESIGN North ATX mATX Mid Tower PC Case",
+      "price" : 159.99,
+      "img" : "CASE-FDW.jpg",
+      "categories" : ["CASE"],
+      "id" : "7-2"
+    },
+
+    {
+      "name" : "CORSAIR 4000D Airflow Tempered Glass Mid-Tower ATX Case, Black",
+      "price" : 99.99,
+      "img" : "CASE-C4K.jpg",
+      "categories" : ["CASE"],
+      "id" : "7-3"
+    },
+
+    {
+      "name" : "CORSAIR AR120 RGB 120mm ARGB-compatible Fan, Triple Pack",
+      "price" : 59.99,
+      "img" : "COOL-AIR-CX3.jpg",
+      "categories" : ["COOL", "AIR"],
+      "id" : "8-1"
+    },
+
+    {
+      "name" : "Phanteks D30-120 Fan Triple Pack, White",
+      "price" : 99.99,
+      "img" : "COOL-AIR-PX3.jpg",
+      "categories" : ["COOL", "AIR"],
+      "id" : "8-2"
+    },
+
+    {
+      "name" : "Lian Li Uni Fan SL Infinity 120 RGB Case Fan",
+      "price" : 109.99,
+      "img" : "COOL-AIR-NX3.jpg",
+      "categories" : ["COOL", "AIR"],
+      "id" : "8-3"
+    },
+
+    {
+      "name" : "Cooler Master ML360L V2 ARGB CPU LIQUID COOLER, White",
+      "price" : 109.99,
+      "img" : "COOL-H2O-CM3.jpg",
+      "categories" : ["COOL", "H2O"],
+      "id" : "8-4"
+    },
+    {
+      "name" : "DeepCool LS720 High-Performance 360mm ARGB CPU Liquid Cooler - Black",
+      "price" : 129.99,
+      "img" : "COOL-H2O-DC3.jpg",
+      "categories" : ["COOL", "H2O"],
+      "id" : "8-5"
+    },
+    {
+      "name" : "CORSAIR H150 RGB 360mm Liquid CPU Cooler",
+      "price" : 119.99,
+      "img" : "COOL-H2O-CS3.jpg",
+      "categories" : ["COOL", "H2O"],
+      "id" : "8-6"
     }
+    
+    
+    
+    
+
 
   ]

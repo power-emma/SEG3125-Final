@@ -11,12 +11,15 @@ import Cart from "./CartPage";
 import CartCard from "./CartCard";
 import { CartProvider } from "./CartContext";
 import { useEffect, useState } from "react";
-
+import HomeFR from "./HomeFR";
+import { Suspense } from 'react';
+import { useTranslation} from 'react-i18next';
 
 
 const App = () => {
-
+    const { t, i18n } = useTranslation();
     return (
+
     <div>
       <CartProvider>
         <HashRouter>
@@ -27,6 +30,7 @@ const App = () => {
               <Route path="/Expert" exact element={<Expert/>} />
               <Route path="/Learn" exact element={<Learn/>} />
               <Route path="/Cart" exact element={<Cart/>} />
+
             </Routes>
         </HashRouter>
       </CartProvider >
@@ -34,6 +38,10 @@ const App = () => {
     );
   }
 
-
-
-export default App;
+  export default function WrappedApp() {
+    return (
+      <Suspense fallback="...loading">
+        <App />
+      </Suspense>
+    )
+  }

@@ -6,6 +6,7 @@ import Home from './Home';
 import ProductPage from './ProductPage';
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from './App';
+import './i18n';
 
 ReactDOM.render(<App />, document.getElementById("root"));
 //ReactDOM.render(<ProductPage />, document.getElementById("root"));

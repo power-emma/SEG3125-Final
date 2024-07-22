@@ -25,6 +25,14 @@ const ProductPage = () => {
         {name: "Graphics Cards", categories: ["GPU"], index: "4"}, 
         {name: "AMD Graphics Cards", categories: ["GPU", "AMD"], index: "4.1"}, 
         {name: "NVIDIA Graphics Cards", categories: ["GPU", "NVIDIA"], index: "4.2"}, 
+        {name: "Power Supplies", categories: ["PSU"], index: "5"},
+        {name: "Storage", categories: ["STORE"], index: "6"},
+        {name: "Solid State Drives", categories: ["STORE", "SSD"], index: "6.1"},
+        {name: "Hard Drives", categories: ["STORE", "HDD"], index: "6.2"},
+        {name: "Cases", categories: ["CASE"], index: "7"}, 
+        {name: "Cooling", categories: ["COOL"], index: "8"},
+        {name: "Air Cooling", categories: ["COOL", "AIR"], index: "8.1"}, 
+        {name: "Liquid Cooling", categories: ["COOL", "H2O"], index: "8.2"}, 
     ]
 
     const searchQuery = (searchIndex) => {
