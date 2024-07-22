@@ -1,0 +1,136 @@
+[
+    {
+      "name" : "Ryzen 9 9900",
+      "price" : 599.99,
+      "img" : "CPU9900.jpg",
+      "categories" : ["CPU", "AMD"],
+      "id" : "1-1"
+    },
+    {
+      "name" : "Ryzen 7 9700",
+      "price" : 399.99,
+      "img" : "CPU9700.jpg",
+      "categories" : ["CPU", "AMD"],
+      "id" : "1-2"
+    },
+    {
+      "name" : "Ryzen 5 9500",
+      "price" : 299.99,
+      "img" : "CPU9500.jpg",
+      "categories" : ["CPU", "AMD"],
+      "id" : "1-3"
+      
+    },
+    {
+        "name" : "Ryzen 9 9950",
+        "price" : 699.99,
+        "img" : "CPU9950.jpg",
+        "categories" : ["CPU", "AMD"],
+        "id" : "1-4"
+    },
+    {
+        "name" : "Ryzen 7 9800",
+        "price" : 499.99,
+        "img" : "CPU9800.jpg",
+        "categories" : ["CPU", "AMD"],
+        "id" : "1-5"
+    },
+    {
+        "name" : "Ryzen 5 9600",
+        "price" : 349.99,
+        "img" : "CPU9600.jpg",
+        "categories" : ["CPU", "AMD"],
+        "id" : "1-6"
+    },
+
+    {
+      "name" : "Intel Core i9 14900K",
+      "price" : 799.99,
+      "img" : "CPUi9.jpg",
+      "categories" : ["CPU", "Intel"],
+      "id" : "1-7"
+    },
+    {
+      "name" : "Intel Core i5 14600K",
+      "price" : 399.99,
+      "img" : "CPUi5.jpg",
+      "categories" : ["CPU", "Intel"],
+      "id" : "1-8"
+    },
+    {
+      "name" : "Intel Core i7 14700K",
+      "price" : 549.99,
+      "img" : "CPUi7.jpg",
+      "categories" : ["CPU", "Intel"],
+      "id" : "1-9"
+    },
+
+    {
+      "name" : "GIGABYTE B650M GAMING PLUS WIFI",
+      "price" : 199.99,
+      "img" : "MBD-AMD-GIGABYTE.jpg",
+      "categories" : ["MBD", "AMD"],
+      "id" : "2-1"
+    },
+    {
+      "name" : "GIGABYTE B650M GAMING X",
+      "price" : 139.99,
+      "img" : "MBD-AMD-GIGABYTE2.jpg",
+      "categories" : ["MBD", "AMD"],
+      "id" : "2-2"
+    },
+    {
+      "name" : "ASUS Prime B550M-A WIFI",
+      "price" : 139.99,
+      "img" : "MBD-AMD-ASUS.jpg",
+      "categories" : ["MBD", "AMD"],
+      "id" : "2-3"
+    },
+
+    {
+      "name" : "MSI PRO B760M-P",
+      "price" : 119.99,
+      "img" : "MBD-INTEL-MSI.jpg",
+      "categories" : ["MBD", "Intel"],
+      "id" : "2-4"
+    },
+    {
+      "name" : "ASUS ROG Strix B760",
+      "price" : 199.99,
+      "img" : "MBD-INTEL-ASUS.jpg",
+      "categories" : ["MBD", "Intel"],
+      "id" : "2-5"
+    },
+    {
+      "name" : "GIGABYTE Z790 S WIFI",
+      "price" : 199.99,
+      "img" : "MBD-INTEL-GIGABYTE.jpg",
+      "categories" : ["MBD", "Intel"],
+      "id" : "2-6"
+    },
+
+    {
+      "name" : "TeamGroup T-FORCE DELTA RGB 32GB",
+      "price" : 139.99,
+      "img" : "RAM-32.jpg",
+      "categories" : ["RAM"],
+      "id" : "3-1"
+    },
+
+    {
+      "name" : "Corsair Vengance 16GB",
+      "price" : 79.99,
+      "img" : "RAM-16.jpg",
+      "categories" : ["RAM"],
+      "id" : "3-2"
+    },
+
+    {
+      "name" : "Corsair Vengance RGB 64GB",
+      "price" : 199.99,
+      "img" : "RAM-64.jpg",
+      "categories" : ["RAM"],
+      "id" : "3-3"
+    }
+
+  ]

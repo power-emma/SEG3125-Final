@@ -1,0 +1,19 @@
+.Home {
+    text-align: center;
+  }
+  
+.Home-header {
+    background-color: FFFFFF;
+    flex-direction: column;
+    color: black;
+}
+  
+.background-dim{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.3);
+    pointer-events: none;
+}
