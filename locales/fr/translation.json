@@ -1,0 +1,17 @@
+{
+  "header": {
+    "home": "Maison",
+    "products": "Produits",
+    "expert": "Expert",
+    "learn": "Étudier",
+    "cart": "Cart"
+  },
+  "home": {
+      "amdhero": "Nouveau! Processeurs AMD Ryzen série 9000",
+      "amddesc": "Les processeurs de bureau les plus rapides du marché",
+      "amdbutton": "Parcourir les produits AMD",
+      "experthero": "Laissez nos experts faire le travail pour vous",
+      "expertdesc": "Nous pouvons concevoir et construire un ordinateur spécifiquement adapté à vos besoins",
+      "expertbutton": "Consultez nos experts"
+  }
+}
